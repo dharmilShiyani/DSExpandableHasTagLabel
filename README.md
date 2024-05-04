@@ -36,7 +36,6 @@ self.lblDescription.numberOfLines = 2
 self.lblDescription.expandedAttributedLink = NSAttributedString(string: "Read Less", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 16.0, weight: .semibold)])
 self.lblDescription.collapsedAttributedLink = NSAttributedString(string: "Read More", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 16.0, weight: .semibold)])
 self.lblDescription.collapsed = true
-self.lblDescription.arrHashTag = arrHasTags
 self.lblDescription.text = (obj.content ?? "").decodingEmoji().trimmingCharacters(in: .whitespacesAndNewlines)
 self.lblDescription.onHashtagTapped = { hashTag in
     print("Hashtag Tapped: \(hashTag)")

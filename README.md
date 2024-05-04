@@ -21,16 +21,12 @@ pod 'DSExpandableHasTagLabel'
 ```
 ## Usage
 
-Turn on the accessory in storyboard. For details, check these videos:
-
-<a href="https://www.youtube.com/playlist?list=PLSyUY9cUrmozWHqIRZ1UULgcdl2SAJCY2"><img src="images/rgdk-yt.png" height="200"></a>
-
 Import it in the ViewController you want it to work:
 
 ```ruby
 import DSExpandableHasTagLabel
 ```
-In your viewDidLoad function, call RGDoneKeyboard on self:
+In your viewDidLoad function, call DSExpandableHasTagLabel on self:
 
 ```ruby
 let text = "Lorem ipsum dolor sit amet, consectetur @user adipiscing elit. #Innovation et lorem @urna, sed vehicula leo. Ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi"

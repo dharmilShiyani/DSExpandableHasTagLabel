@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+<!--## Requirements-->
 
 ## Installation
 
@@ -19,10 +19,41 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'DSExpandableHasTagLabel'
 ```
+## Usage
+
+Turn on the accessory in storyboard. For details, check these videos:
+
+<a href="https://www.youtube.com/playlist?list=PLSyUY9cUrmozWHqIRZ1UULgcdl2SAJCY2"><img src="images/rgdk-yt.png" height="200"></a>
+
+Import it in the ViewController you want it to work:
+
+```ruby
+import RGDoneKeyboard
+```
+In your viewDidLoad function, call RGDoneKeyboard on self:
+
+```ruby
+        let text = "Lorem ipsum dolor sit amet, consectetur @user adipiscing elit. #Innovation et lorem @urna, sed vehicula leo. Ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi"
+        self.lblDescription.shouldCollapse = true
+        self.lblDescription.textReplacementType = .word
+        self.lblDescription.numberOfLines = 2
+        self.lblDescription.expandedAttributedLink = NSAttributedString(string: "Read Less", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 16.0, weight: .semibold)])
+        self.lblDescription.collapsedAttributedLink = NSAttributedString(string: "Read More", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 16.0, weight: .semibold)])
+
+        self.lblDescription.collapsed = true
+        self.lblDescription.arrHashTag = arrHasTags
+        self.lblDescription.text = (obj.content ?? "").decodingEmoji().trimmingCharacters(in: .whitespacesAndNewlines)
+        self.lblDescription.onHashtagTapped = { hashTag in
+            print("Hashtag Tapped: \(hashTag)")
+        }
+        self.lblDescription.onTagUserTapped = { mentionUser in
+                        print("mentionUser Tapped: \(mentionUser)")
+        }
+```
 
 ## Author
 
-dharmilShiyani, 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
+dharmilShiyani, dharmil.official@gmail.com
 
 ## License
 

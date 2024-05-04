@@ -1,0 +1,6 @@
+framework module DSExpandableHasTagLabel {
+  umbrella header "DSExpandableHasTagLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

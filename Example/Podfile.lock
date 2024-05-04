@@ -1,0 +1,16 @@
+PODS:
+  - DSExpandableHasTagLabel (0.1.0)
+
+DEPENDENCIES:
+  - DSExpandableHasTagLabel (from `../`)
+
+EXTERNAL SOURCES:
+  DSExpandableHasTagLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSExpandableHasTagLabel: cd749d4159e4c7b29ad7c60266eafb9f5395044b
+
+PODFILE CHECKSUM: 70b65c52c03518cb92548c2b5f41e19e5466f766
+
+COCOAPODS: 1.15.2

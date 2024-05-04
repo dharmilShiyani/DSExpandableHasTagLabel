@@ -28,27 +28,26 @@ Turn on the accessory in storyboard. For details, check these videos:
 Import it in the ViewController you want it to work:
 
 ```ruby
-import RGDoneKeyboard
+import DSExpandableHasTagLabel
 ```
 In your viewDidLoad function, call RGDoneKeyboard on self:
 
 ```ruby
-        let text = "Lorem ipsum dolor sit amet, consectetur @user adipiscing elit. #Innovation et lorem @urna, sed vehicula leo. Ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi"
-        self.lblDescription.shouldCollapse = true
-        self.lblDescription.textReplacementType = .word
-        self.lblDescription.numberOfLines = 2
-        self.lblDescription.expandedAttributedLink = NSAttributedString(string: "Read Less", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 16.0, weight: .semibold)])
-        self.lblDescription.collapsedAttributedLink = NSAttributedString(string: "Read More", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 16.0, weight: .semibold)])
-
-        self.lblDescription.collapsed = true
-        self.lblDescription.arrHashTag = arrHasTags
-        self.lblDescription.text = (obj.content ?? "").decodingEmoji().trimmingCharacters(in: .whitespacesAndNewlines)
-        self.lblDescription.onHashtagTapped = { hashTag in
-            print("Hashtag Tapped: \(hashTag)")
-        }
-        self.lblDescription.onTagUserTapped = { mentionUser in
-                        print("mentionUser Tapped: \(mentionUser)")
-        }
+let text = "Lorem ipsum dolor sit amet, consectetur @user adipiscing elit. #Innovation et lorem @urna, sed vehicula leo. Ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi"
+self.lblDescription.shouldCollapse = true
+self.lblDescription.textReplacementType = .word
+self.lblDescription.numberOfLines = 2
+self.lblDescription.expandedAttributedLink = NSAttributedString(string: "Read Less", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 16.0, weight: .semibold)])
+self.lblDescription.collapsedAttributedLink = NSAttributedString(string: "Read More", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 16.0, weight: .semibold)])
+self.lblDescription.collapsed = true
+self.lblDescription.arrHashTag = arrHasTags
+self.lblDescription.text = (obj.content ?? "").decodingEmoji().trimmingCharacters(in: .whitespacesAndNewlines)
+self.lblDescription.onHashtagTapped = { hashTag in
+    print("Hashtag Tapped: \(hashTag)")
+}
+self.lblDescription.onTagUserTapped = { mentionUser in
+    print("mentionUser Tapped: \(mentionUser)")
+}
 ```
 
 ## Author

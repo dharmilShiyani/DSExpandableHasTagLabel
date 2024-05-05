@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DSExpandableHasTagLabel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = "DSExpandableHashtagLabel is a simple UILabel subclass that shows a tappable link if the content doesn't fit the specified number of lines. If touched, the label will expand to show the entire content. Also, you will be notified when the user taps on any hashtag or any mentioned username."
   
   # This description is used to generate tags and improve search results.

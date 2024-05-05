@@ -48,6 +48,30 @@ self.lblDescription.onTagUserTapped = { mentionUser in
     print("mentionUser Tapped: \(mentionUser)")
 }
 ```
+##### Delegate method to reload TableView
+Set _delegate_ to notify while Label expand or collapse.
+
+```swift
+extension ViewController: DSExpandableHasTagLabelDelegate {
+    
+    func willExpandLabel(_ label: DSExpandableHasTagLabel) {
+        tblView.beginUpdates()
+    }
+    
+    func didExpandLabel(_ label: DSExpandableHasTagLabel) {
+        tblView.endUpdates()
+    }
+    
+    func willCollapseLabel(_ label: DSExpandableHasTagLabel) {
+        tblView.beginUpdates()
+    }
+    
+    func didCollapseLabel(_ label: DSExpandableHasTagLabel) {
+        tblView.endUpdates()
+    }
+    
+}
+```
 
 ## Author
 

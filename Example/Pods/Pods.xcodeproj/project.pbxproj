@@ -48,7 +48,7 @@
 		478E7D31914D178C0A1F3BBB522A1133 /* DSExpandableHasTagLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DSExpandableHasTagLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4EF11B27018AE1C5131E28FE95D85A2A /* Pods-DSExpandableHasTagLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSExpandableHasTagLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5AF95B3E2D769F9C6FEAB27587E6C9BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5DBC64ACC579F4F7D02131FB89E022BD /* Pods-DSExpandableHasTagLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DSExpandableHasTagLabel_Tests"; path = Pods_DSExpandableHasTagLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBC64ACC579F4F7D02131FB89E022BD /* Pods_DSExpandableHasTagLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSExpandableHasTagLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B298AB2E7F44DCA2F69C8764197EAAE /* Pods-DSExpandableHasTagLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DSExpandableHasTagLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		6D6A06702F07C685F61BCB63FA9EBD2D /* Pods-DSExpandableHasTagLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSExpandableHasTagLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,8 +65,8 @@
 		C66156732BE63E600053877C /* DSExpandableHasTagLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSExpandableHasTagLabel.swift; sourceTree = "<group>"; };
 		D35493ED3DB470DB0786A0CE4D21D18C /* Pods-DSExpandableHasTagLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSExpandableHasTagLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6488A4B35D4A9396B5876F80B17986C /* Pods-DSExpandableHasTagLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSExpandableHasTagLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DE1B874F9F14165DF2940B6362E052D7 /* DSExpandableHasTagLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSExpandableHasTagLabel; path = DSExpandableHasTagLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF7F9B87588520CB57B2FBD6EE91FC79 /* Pods-DSExpandableHasTagLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DSExpandableHasTagLabel_Example"; path = Pods_DSExpandableHasTagLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1B874F9F14165DF2940B6362E052D7 /* DSExpandableHasTagLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSExpandableHasTagLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7F9B87588520CB57B2FBD6EE91FC79 /* Pods_DSExpandableHasTagLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSExpandableHasTagLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0C8EE6081AA701447E5333E6BFD17D /* Pods-DSExpandableHasTagLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSExpandableHasTagLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F37E4EF1BD33E0795BFC897BE1367C90 /* Pods-DSExpandableHasTagLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSExpandableHasTagLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA76546F46B00811183843B2A31FFAC0 /* DSExpandableHasTagLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSExpandableHasTagLabel.release.xcconfig; sourceTree = "<group>"; };
@@ -163,9 +163,9 @@
 		B7EE6C047E164162D2E29E1E615E9681 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE1B874F9F14165DF2940B6362E052D7 /* DSExpandableHasTagLabel */,
-				DF7F9B87588520CB57B2FBD6EE91FC79 /* Pods-DSExpandableHasTagLabel_Example */,
-				5DBC64ACC579F4F7D02131FB89E022BD /* Pods-DSExpandableHasTagLabel_Tests */,
+				DE1B874F9F14165DF2940B6362E052D7 /* DSExpandableHasTagLabel.framework */,
+				DF7F9B87588520CB57B2FBD6EE91FC79 /* Pods_DSExpandableHasTagLabel_Example.framework */,
+				5DBC64ACC579F4F7D02131FB89E022BD /* Pods_DSExpandableHasTagLabel_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			);
 			name = "Pods-DSExpandableHasTagLabel_Tests";
 			productName = Pods_DSExpandableHasTagLabel_Tests;
-			productReference = 5DBC64ACC579F4F7D02131FB89E022BD /* Pods-DSExpandableHasTagLabel_Tests */;
+			productReference = 5DBC64ACC579F4F7D02131FB89E022BD /* Pods_DSExpandableHasTagLabel_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65E8E8A0799E2A66AB686B430FC35089 /* DSExpandableHasTagLabel */ = {
@@ -295,7 +295,7 @@
 			);
 			name = DSExpandableHasTagLabel;
 			productName = DSExpandableHasTagLabel;
-			productReference = DE1B874F9F14165DF2940B6362E052D7 /* DSExpandableHasTagLabel */;
+			productReference = DE1B874F9F14165DF2940B6362E052D7 /* DSExpandableHasTagLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6A880E229C0627FCC6DACC9A7CBABFA4 /* Pods-DSExpandableHasTagLabel_Example */ = {
@@ -314,7 +314,7 @@
 			);
 			name = "Pods-DSExpandableHasTagLabel_Example";
 			productName = Pods_DSExpandableHasTagLabel_Example;
-			productReference = DF7F9B87588520CB57B2FBD6EE91FC79 /* Pods-DSExpandableHasTagLabel_Example */;
+			productReference = DF7F9B87588520CB57B2FBD6EE91FC79 /* Pods_DSExpandableHasTagLabel_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -430,7 +430,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DSExpandableHasTagLabel_Tests/Pods-DSExpandableHasTagLabel_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DSExpandableHasTagLabel_Tests/Pods-DSExpandableHasTagLabel_Tests.modulemap";
@@ -464,7 +464,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DSExpandableHasTagLabel_Example/Pods-DSExpandableHasTagLabel_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DSExpandableHasTagLabel_Example/Pods-DSExpandableHasTagLabel_Example.modulemap";
@@ -498,7 +498,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DSExpandableHasTagLabel/DSExpandableHasTagLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DSExpandableHasTagLabel/DSExpandableHasTagLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DSExpandableHasTagLabel/DSExpandableHasTagLabel.modulemap";
 				PRODUCT_MODULE_NAME = DSExpandableHasTagLabel;
@@ -529,7 +529,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DSExpandableHasTagLabel_Tests/Pods-DSExpandableHasTagLabel_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DSExpandableHasTagLabel_Tests/Pods-DSExpandableHasTagLabel_Tests.modulemap";
@@ -623,7 +623,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DSExpandableHasTagLabel_Example/Pods-DSExpandableHasTagLabel_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DSExpandableHasTagLabel_Example/Pods-DSExpandableHasTagLabel_Example.modulemap";
@@ -656,7 +656,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DSExpandableHasTagLabel/DSExpandableHasTagLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DSExpandableHasTagLabel/DSExpandableHasTagLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DSExpandableHasTagLabel/DSExpandableHasTagLabel.modulemap";
 				PRODUCT_MODULE_NAME = DSExpandableHasTagLabel;

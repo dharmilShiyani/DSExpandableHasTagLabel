@@ -91,9 +91,9 @@ import UIKit
     private var collapsedLinkTextRange: NSRange?
     private var expandedLinkTextRange: NSRange?
     var arrHashTag = [String]()
-    var onHashtagTapped:((String)->())?
+    open var onHashtagTapped:((String)->())?
     var arrMentionUser = [String]()
-    var onTagUserTapped:((String)->())?
+    open var onTagUserTapped:((String)->())?
     
     open override var numberOfLines: NSInteger {
         didSet {

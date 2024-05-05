@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/DSExpandableHasTagLabel.svg?style=flat)](https://cocoapods.org/pods/DSExpandableHasTagLabel)
 [![Platform](https://img.shields.io/cocoapods/p/DSExpandableHasTagLabel.svg?style=flat)](https://cocoapods.org/pods/DSExpandableHasTagLabel)
 
+DSExpandableHastagLabel is a simple UILabel subclass that shows a tappable link if the content doesn't fit the specified number of lines. If touched, the label will expand to show the entire content. Also, you will be notified when the user taps on any hashtag or any mentioned username.
+  
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

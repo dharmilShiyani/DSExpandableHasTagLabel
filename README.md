@@ -11,6 +11,8 @@ DSExpandableHastagLabel is a simple UILabel subclass that shows a tappable link 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<img src="Helper/dsehl.gif" height="400">
+
 <!--## Requirements-->
 
 ## Installation
